@@ -61,6 +61,7 @@
 				<Item Name="Value Multiple Numeric Controls.vi" Type="VI" URL="../support/Value Multiple Numeric Controls.vi"/>
 				<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
 				<Item Name="Open Log Dir.vi" Type="VI" URL="../support/Open Log Dir.vi"/>
+				<Item Name="Open Status File.vi" Type="VI" URL="../support/Status Logger/Open Status File.vi"/>
 			</Item>
 			<Item Name="Status Logger" Type="Folder">
 				<Item Name="Status Logger FGV.vi" Type="VI" URL="../support/Status Logger/Status Logger FGV.vi"/>
@@ -82,7 +83,6 @@
 		<Item Name="PL Model.lvlib" Type="Library" URL="../PL Model/PL Model.lvlib"/>
 		<Item Name="Logger.lvlib" Type="Library" URL="../Logger/Logger.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Open Status File.vi" Type="VI" URL="../support/Status Logger/Open Status File.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
