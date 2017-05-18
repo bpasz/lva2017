@@ -1,1 +1,3 @@
-data/
+
+*.tdms
+*.tdms_index
