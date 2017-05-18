@@ -186,3 +186,5 @@
 2017-05-18 11:05:59 DAQ channels updated 
 2017-05-18 11:05:59 Line has been powered 
 2017-05-18 11:05:59 PL Model reseted 
+2017-05-18 11:17:30 Testowy status 
+2017-05-18 11:18:06 Testowy status 
