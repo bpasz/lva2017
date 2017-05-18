@@ -50,27 +50,39 @@
 			</Item>
 			<Item Name="Queued Message Handler Documentation.html" Type="Document" URL="../documentation/Queued Message Handler Documentation.html"/>
 		</Item>
-		<Item Name="Support VIs" Type="Folder">
+		<Item Name="bin" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="PLC.vi" Type="VI" URL="../support/PLC.vi"/>
-			<Item Name="Enable Multiple Boolean Controls.vi" Type="VI" URL="../support/Enable Multiple Boolean Controls.vi"/>
+			<Item Name="SubVIs" Type="Folder">
+				<Item Name="PLC.vi" Type="VI" URL="../support/PLC.vi"/>
+				<Item Name="Enable Multiple Boolean Controls.vi" Type="VI" URL="../support/Enable Multiple Boolean Controls.vi"/>
+				<Item Name="Check Loop Error.vi" Type="VI" URL="../support/Check Loop Error.vi"/>
+				<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
+				<Item Name="Value Multiple Boolean Controls.vi" Type="VI" URL="../support/Value Multiple Boolean Controls.vi"/>
+				<Item Name="Value Multiple Numeric Controls.vi" Type="VI" URL="../support/Value Multiple Numeric Controls.vi"/>
+				<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
+				<Item Name="Open Log Dir.vi" Type="VI" URL="../support/Open Log Dir.vi"/>
+			</Item>
+			<Item Name="Status Logger" Type="Folder">
+				<Item Name="Status Logger FGV.vi" Type="VI" URL="../support/Status Logger/Status Logger FGV.vi"/>
+				<Item Name="Status Log.ctl" Type="VI" URL="../support/Status Logger/Status Log.ctl"/>
+			</Item>
 			<Item Name="Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Message Queue.lvlib"/>
 			<Item Name="PLC Notifiers.lvlib" Type="Library" URL="../support/Exit Notifiers/PLC Notifiers.lvlib"/>
 			<Item Name="User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/User Event - Stop.lvlib"/>
-			<Item Name="Check Loop Error.vi" Type="VI" URL="../support/Check Loop Error.vi"/>
-			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
-			<Item Name="Value Multiple Boolean Controls.vi" Type="VI" URL="../support/Value Multiple Boolean Controls.vi"/>
-			<Item Name="Value Multiple Numeric Controls.vi" Type="VI" URL="../support/Value Multiple Numeric Controls.vi"/>
-			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
+			<Item Name="main menu.rtm" Type="Document" URL="../support/main menu.rtm"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="PLC Data.ctl" Type="VI" URL="../controls/PLC Data.ctl"/>
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
+		<Item Name="Unit Tests" Type="Folder">
+			<Item Name="Status Logger Unit Test VI.vi" Type="VI" URL="../Test VIs/Status Logger Unit Test VI.vi"/>
+		</Item>
 		<Item Name="DAQ.lvlib" Type="Library" URL="../DAQ/DAQ.lvlib"/>
 		<Item Name="PL Model.lvlib" Type="Library" URL="../PL Model/PL Model.lvlib"/>
 		<Item Name="Logger.lvlib" Type="Library" URL="../Logger/Logger.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Open Status File.vi" Type="VI" URL="../support/Status Logger/Open Status File.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -291,6 +303,9 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
