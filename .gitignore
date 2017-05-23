@@ -1,0 +1,8 @@
+
+*.tdms
+
+*.tdms_index
+
+logs/*
+
+!logs/placeholder.txt
